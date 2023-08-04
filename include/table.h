@@ -20,8 +20,8 @@ public:
 	void show() const;
 	bool loadFromFile(const std::string&, Row&) const;
 	bool loadFromFile(const std::string&);
-    bool saveToFile(const std::string&, const Row&) const;
-    bool meetCondition(const Row&, const std::string&);
+    	bool saveToFile(const std::string&, const Row&) const;
+    	bool meetCondition(const Row&, const std::string&);
 private:
 	std::vector<Row> rows;
 	std::string name;
